@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Compose Widgets Classes</string>
+    <string name="title_activity_text_compose_example">TextComposeExample</string>
+    <string name="title_activity_image_compose_example">ImageComposeExample</string>
+</resources>
