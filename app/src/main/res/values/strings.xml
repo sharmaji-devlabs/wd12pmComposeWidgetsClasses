@@ -2,4 +2,6 @@
     <string name="app_name">Compose Widgets Classes</string>
     <string name="title_activity_text_compose_example">TextComposeExample</string>
     <string name="title_activity_image_compose_example">ImageComposeExample</string>
+    <string name="title_activity_button_compose_example">ButtonComposeExample</string>
+    <string name="title_activity_arrangement_compose">ArrangementCompose</string>
 </resources>
