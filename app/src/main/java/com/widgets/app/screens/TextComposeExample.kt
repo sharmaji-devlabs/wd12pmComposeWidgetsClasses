@@ -1,4 +1,4 @@
-package com.widgets.app.ui.screens
+package com.widgets.app.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily

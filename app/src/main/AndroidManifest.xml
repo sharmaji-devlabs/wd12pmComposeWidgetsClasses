@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeWidgetsClasses">
         <activity
-            android:name=".ui.screens.MainActivity"
+            android:name=".screens.MainActivity"
             android:exported="false"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize">
@@ -25,7 +25,7 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name=".ui.screens.TextComposeExample"
+            android:name=".screens.TextComposeExample"
             android:exported="false"
             android:label="@string/title_activity_text_compose_example"
             android:theme="@style/Theme.ComposeWidgetsClasses"
@@ -39,7 +39,7 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name=".ui.screens.ImageComposeExample"
+            android:name=".screens.ImageComposeExample"
             android:exported="true"
             android:label="@string/title_activity_image_compose_example"
             android:theme="@style/Theme.ComposeWidgetsClasses"
@@ -53,19 +53,31 @@
             <!-- </intent-filter> -->
         </activity>
         <activity
-            android:name=".ui.screens.ButtonComposeExample"
+            android:name=".screens.ButtonComposeExample"
             android:exported="false"
             android:label="@string/title_activity_button_compose_example"
             android:theme="@style/Theme.ComposeWidgetsClasses"
             android:windowSoftInputMode="adjustResize">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
+            <!--            <intent-filter>-->
+            <!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--            </intent-filter>-->
         </activity>
         <activity
-            android:name=".ui.screens.ArrangementCompose"
+            android:name=".screens.ArrangementCompose"
+            android:exported="false"
+            android:label="@string/title_activity_arrangement_compose"
+            android:theme="@style/Theme.ComposeWidgetsClasses"
+            android:windowSoftInputMode="adjustResize">
+            <!--            <intent-filter>-->
+            <!--                <action android:name="android.intent.action.MAIN" />-->
+
+            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".screens.ModifiersExamplesActivity"
             android:exported="true"
             android:label="@string/title_activity_arrangement_compose"
             android:theme="@style/Theme.ComposeWidgetsClasses"
@@ -76,6 +88,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

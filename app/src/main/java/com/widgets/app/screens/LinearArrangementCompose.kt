@@ -1,4 +1,4 @@
-package com.widgets.app.ui.screens
+package com.widgets.app.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,24 +10,19 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.widgets.app.R
-import com.widgets.app.ui.screens.ui.theme.ComposeWidgetsClassesTheme
 
 class ArrangementCompose : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,7 +36,9 @@ class ArrangementCompose : ComponentActivity() {
 //            GridArrangementByColumnAndRow()
 
            Column(
-               modifier = Modifier.fillMaxWidth().fillMaxHeight(),
+               modifier = Modifier
+                   .fillMaxWidth()
+                   .fillMaxHeight(),
                 verticalArrangement = Arrangement.Center
            ) {
                Row(
@@ -68,13 +65,14 @@ class ArrangementCompose : ComponentActivity() {
                }
            }
         }
+
     }
 }
 
 // Row and Column Compose for Arrange widgets in a single direction
 
 // Example of Column
-@Preview(showSystemUi = true, showBackground = true)
+//@Preview(showSystemUi = true, showBackground = true)
 @Composable
 private fun VerticalArrangement() {
     Column(
@@ -145,7 +143,9 @@ fun VerticalArrangementPropertyInColumnAndRow(modifier: Modifier = Modifier) {
 @Composable
 fun GridArrangementByColumnAndRow(modifier: Modifier = Modifier) {
     Column(
-        modifier = modifier.size(height = 400.dp, width = 420.dp).background(Color.Gray),
+        modifier = modifier
+            .size(height = 400.dp, width = 420.dp)
+            .background(Color.Gray),
         verticalArrangement = Arrangement.Center
     ) {
         Row(

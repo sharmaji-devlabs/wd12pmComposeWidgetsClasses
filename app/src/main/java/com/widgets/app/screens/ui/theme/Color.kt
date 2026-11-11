@@ -1,4 +1,4 @@
-package com.widgets.app.ui.screens.ui.theme
+package com.widgets.app.screens.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
