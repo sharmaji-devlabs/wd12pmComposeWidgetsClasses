@@ -1,4 +1,4 @@
-package com.widgets.app.screens
+package com.widgets.app.ui.screens
 
 import android.os.Bundle
 import android.os.PersistableBundle

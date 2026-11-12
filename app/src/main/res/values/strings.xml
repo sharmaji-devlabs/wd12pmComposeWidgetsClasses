@@ -5,4 +5,8 @@
     <string name="title_activity_button_compose_example">ButtonComposeExample</string>
     <string name="title_activity_arrangement_compose">ArrangementCompose</string>
     <string name="title_activity_modifiers_examples">ModifiersExamplesActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_make_ui_with_safe_area_from_notch">MakeUiWithSafeAreaFromNotch
+    </string>
+    <string name="title_activity_text_span_compose_example">TextSpanComposeExample</string>
 </resources>
