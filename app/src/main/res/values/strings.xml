@@ -9,4 +9,5 @@
     <string name="title_activity_make_ui_with_safe_area_from_notch">MakeUiWithSafeAreaFromNotch
     </string>
     <string name="title_activity_text_span_compose_example">TextSpanComposeExample</string>
+    <string name="title_activity_text_field_compose_example">TextFieldComposeExample</string>
 </resources>
