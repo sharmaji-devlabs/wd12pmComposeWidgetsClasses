@@ -114,6 +114,20 @@
             android:label="@string/title_activity_text_span_compose_example"
             android:theme="@style/Theme.ComposeWidgetsClasses"
             android:windowSoftInputMode="adjustResize">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".ui.screens.TextFieldComposeExample"
+            android:exported="false"
+            android:label="@string/title_activity_text_field_compose_example"
+            android:theme="@style/Theme.ComposeWidgetsClasses"
+            android:windowSoftInputMode="adjustResize">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
@@ -121,10 +135,8 @@
 <!--            </intent-filter>-->
         </activity>
         <activity
-            android:name=".ui.screens.TextFieldComposeExample"
+            android:name=".ui.screens.form_validation_with_regex.RegistrationScreenActivity"
             android:exported="true"
-            android:label="@string/title_activity_text_field_compose_example"
-            android:theme="@style/Theme.ComposeWidgetsClasses"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
